@@ -1,35 +1,29 @@
-# Hall-Booking Api
+Hall Booking Node.js App
+========================
+This Node.js application provides a platform for booking halls for various events or purposes. 
+It offers a range of features to manage rooms, book rooms, and retrieve booking information through a set of APIs.
 
-## ALL API
+Features
+========
+Room Management: Allows administrators to create, update, and view details of rooms available in the hall.
+Booking: Facilitates users to book rooms for specific dates and times, ensuring no overlapping bookings.
+Customer Management: Provides a comprehensive list of all customers with their respective booking details.
+API Documentation: Offers clear documentation on APIs for seamless interaction with the application.
 
-### 0./
+Access the APIs:
+Utilize tools like Postman  to interact with the APIs.
 
-[get landingPage Endpoint](https://hall-booking-apis.herokuapp.com/)
+APIs
+GET /room: Retrieves all available rooms in the hall.
 
-### 1. /room
+POST /room: Creates unique rooms in the hall.
 
-[get room Endpoint](https://hall-booking-apis.herokuapp.com/room)
+GET /bookRoom: Retrieves all booked rooms.
 
-### 2. /room
+POST /bookRoom: Books a room for a specific date and time.
 
-[post room Endpoint](https://hall-booking-apis.herokuapp.com/room)
+GET /customers: Retrieves a list of all customers with their booking details.
 
-### 3. /bookRoom
-
-[get bookRoom Endpoint](https://hall-booking-apis.herokuapp.com/bookRoom)
-
-### 4. /bookRoom
-
-[post bookRoom Endpoint](https://hall-booking-apis.herokuapp.com/bookRoom)
-
-### 5. /customers
-
-[post bookRoom Endpoint](https://hall-booking-apis.herokuapp.com/customers)
-
-## Postman Documentation
-
-[Postman Documentation](https://documenter.getpostman.com/view/6770852/TVem9oW7)
-
-## Heroku Endpoint
-
-[Heroku Endpoint](https://hall-booking-apis.herokuapp.com/)
+API Responses
+=============
+The repository includes Postman API response screenshot for each endpoint:
